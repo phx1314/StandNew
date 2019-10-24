@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+     <!-- 背景 -->
+     <item android:id="@android:id/background">
+          <shape>
+               <corners android:radius="@dimen/j10dp" />
+               <gradient android:angle="270" android:centerY="0.75" android:endColor="#D5D5D5" android:startColor="#D5D5D5" />
+          </shape>
+     </item>
+     <!-- 第一进度条样式，我想修改的，修改成简单的灰色 -->
+     <item android:id="@android:id/progress">
+          <clip>
+               <shape>
+                    <!-- 圆角设置 -->
+                    <corners android:radius="@dimen/j10dp" />
+                    <gradient android:angle="270" android:centerY="0.75" android:endColor="@color/A" android:startColor="@color/A" />
+               </shape>
+          </clip>
+     </item>
+</layer-list>
+

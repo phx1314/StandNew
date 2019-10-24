@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:progressDrawable="@drawable/pg"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/mWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_hl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j40dp"
+        android:layout_marginBottom="@dimen/j8dp"
+        android:layout_marginLeft="@dimen/j35dp"
+        android:layout_marginRight="@dimen/j35dp"
+        android:layout_marginTop="@dimen/j8dp"
+        android:background="@drawable/shape_blue_cnm"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/mImageView_hl"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j40dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:padding="@dimen/j6dp"
+            android:text="忽略提醒" />
+    </LinearLayout>
+
+</LinearLayout>
+

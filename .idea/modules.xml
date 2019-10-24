@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StandNew.iml" filepath="$PROJECT_DIR$/StandNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andframework-release/andframework-release.iml" filepath="$PROJECT_DIR$/andframework-release/andframework-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frameWidget/frameWidget.iml" filepath="$PROJECT_DIR$/frameWidget/frameWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongFileExplorer/rongFileExplorer.iml" filepath="$PROJECT_DIR$/rongFileExplorer/rongFileExplorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongIMKit/rongIMKit.iml" filepath="$PROJECT_DIR$/rongIMKit/rongIMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongSrc/rongSrc.iml" filepath="$PROJECT_DIR$/rongSrc/rongSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/standNew/standNew.iml" filepath="$PROJECT_DIR$/standNew/standNew.iml" />
+    </modules>
+  </component>
+</project>

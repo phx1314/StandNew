@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Base
+    appid="appid"
+    baseuri="http://123.57.166.61/GoldPM91_jqpm"
+    temppath="JQSTDNEW"
+    updateuri=""
+    usesdcard="true">
+    <param name="isCheck">0</param>
+    <param name="ErrorUpdateUrl"></param>
+    <param name="source">1</param>
+    <param name="WebServiceNamespace">value</param>
+    <param name="WebServiceUrl">value</param>
+    <param name="DefaultFragment">com.jinqu.standardNew.frg.FrgLoading</param>
+    <param name="PortraitUrlNew">/core/main/GetHeadUrl?gid=</param>
+    <param name="image_star">http://123.57.166.61/GoldFile/</param>
+    <param name="PortraitUrlGroupNew">/core/main/GetGroupHeadUrl?id=</param>
+    <param name="ChatStr">jqpm_Group_</param>
+    <param name="ChatUserStr">jqpm_User_</param>
+    <param name="JPush_Alias_BeginWith">jqpm_EmpID_</param>
+    <!--www.jinqu.cn-->
+</Base>
+<!--<Base-->
+    <!--appid="appid"-->
+    <!--baseuri="http://192.168.0.7/GoldPM9_jqmis"-->
+    <!--temppath="JQSTDNEW"-->
+    <!--updateuri=""-->
+    <!--usesdcard="true">-->
+    <!--<param name="ErrorUpdateUrl"></param>-->
+    <!--<param name="source">1</param>-->
+    <!--<param name="isCheck">0</param>-->
+    <!--<param name="WebServiceNamespace">value</param>-->
+    <!--<param name="WebServiceUrl">value</param>-->
+    <!--<param name="DefaultFragment">com.jinqu.standardNew.frg.FrgLoading</param>-->
+    <!--<param name="PortraitUrlNew">/core/main/GetHeadUrl?gid=</param>-->
+    <!--<param name="image_star">http://192.168.0.7/GoldFile/</param>-->
+    <!--<param name="PortraitUrlGroupNew">/core/main/GetGroupHeadUrl?id=</param>-->
+    <!--<param name="ChatStr">jqpm_Group_</param>-->
+    <!--<param name="ChatUserStr">jqpm_User_</param>-->
+    <!--<param name="JPush_Alias_BeginWith">2015001GoldPM9_Default_EmpID_</param>-->
+<!--</Base>-->

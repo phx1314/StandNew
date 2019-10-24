@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mTextView_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j25dp"
+        android:background="#f2f2f2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/j10dp"
+        android:text="A"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/j10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_k"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/j1_5dp">
+
+                <com.mdx.framework.widget.MImageView
+                    android:id="@+id/mImageView_touxiang"
+                    android:layout_width="@dimen/j40dp"
+                    android:layout_height="@dimen/j40dp"
+                    android:src="@drawable/morentouxiang_n" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mTextView_name"
+                    style="@style/text_style_15_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="朴树" />
+
+                <TextView
+                    android:id="@+id/mTextView_bumen"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/j5dp"
+                    android:gravity="center_vertical"
+                    android:text="13915079457" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/mCheckBox"
+                android:layout_width="@dimen/j20dp"
+                android:layout_height="@dimen/j20dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/j8dp"
+                android:layout_marginRight="@dimen/j15dp"
+                android:background="@drawable/weixuan"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

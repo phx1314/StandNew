@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/j20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_approve_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mTextView_title"
+            style="@style/text_style_15_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/j10dp"
+            android:gravity="center"
+            android:text="提交下一步"
+            android:textColor="#1ABC9C" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j40dp"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_style_15_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/j8dp"
+                android:gravity="center"
+                android:text="步骤" />
+
+            <Spinner
+                android:id="@+id/mSpinner_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@null" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j40dp"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_style_15_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/j8dp"
+                android:gravity="center"
+                android:text="人员" />
+
+            <Spinner
+                android:id="@+id/mSpinner_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/mTextView_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:minHeight="@dimen/j40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_style_15_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/j10dp"
+                android:text="意见" />
+
+            <EditText
+                android:id="@+id/mEditText"
+                style="@style/text_style_13_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:gravity="top"
+                android:hint="请输入意见"
+                android:maxHeight="@dimen/j100dp"
+                android:paddingBottom="@dimen/j10dp"
+                android:paddingTop="@dimen/j10dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_marginRight="@dimen/j5dp"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j44dp">
+
+            <TextView
+                android:id="@+id/mTextView_sure"
+                style="@style/text_style_15_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#1ABC9C" />
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/tyD1" />
+
+            <TextView
+                android:id="@+id/mTextView_cancel"
+                style="@style/text_style_15_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="#1ABC9C" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+

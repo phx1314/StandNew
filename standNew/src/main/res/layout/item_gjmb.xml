@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#fff" android:orientation="vertical">
+     <ImageView android:layout_width="match_parent" android:layout_height="@dimen/j8dp" android:background="#f2f2f2" />
+     <TextView android:id="@+id/mTextView_title" style="@style/text_style_15_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j10dp" android:text="校审意见：我觉得ok" />
+     <TextView android:id="@+id/mTextView_jy" style="@style/text_style_13_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j5dp" android:text="校审建议：技术性差错" />
+     <TextView android:id="@+id/mTextView_file" style="@style/text_style_13_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j5dp" android:text="设计文件：技术性差错" />
+     <TextView android:id="@+id/mTextView_user" style="@style/text_style_13_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j5dp" android:text="提出人：技术性差错" />
+     <TextView android:id="@+id/mTextView_time" style="@style/text_style_13_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j5dp" android:text="提出时间：技术性差错" />
+     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j5dp" android:orientation="horizontal">
+          <TextView style="@style/text_style_13_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设计修改：" />
+          <TextView android:id="@+id/mTextView_xg" style="@style/text_style_13_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="技术性差错" />
+     </LinearLayout>
+     <TextView android:id="@+id/mTextView_tg" style="@style/text_style_13_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/j10dp" android:layout_marginLeft="@dimen/j10dp" android:layout_marginRight="@dimen/j10dp" android:layout_marginTop="@dimen/j5dp" android:text="校验通过：技术性差错" />
+     <ImageView android:layout_width="match_parent" android:layout_height="1px" android:background="@color/tyD1" />
+     <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/j40dp" android:orientation="horizontal">
+          <TextView android:id="@+id/mTextView_ck" style="@style/text_style_15_black" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="查看附件" android:textColor="@color/A" />
+          <ImageView android:layout_width="1px" android:layout_height="match_parent" android:background="@color/tyD1" />
+          <TextView android:id="@+id/mTextView_ly" style="@style/text_style_15_black" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:text="留言" android:textColor="@color/A" />
+     </LinearLayout>
+</LinearLayout>
+

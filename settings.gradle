@@ -1,0 +1,5 @@
+include ':frameWidget', ':standNew', ':lib'
+include ':andframework-release'
+include ':rongFileExplorer'
+include ':rongIMKit'
+include ':rongSrc'

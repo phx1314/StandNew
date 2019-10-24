@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp"
+        android:background="#f2f2f2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/j10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_k"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/j1_5dp">
+
+                <com.mdx.framework.widget.MImageView
+                    android:id="@+id/mMImageView"
+                    android:layout_width="@dimen/j35dp"
+                    android:layout_height="@dimen/j35dp"
+                    android:src="@drawable/morentouxiang_n" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="常州创意产业园" />
+
+                <TextView
+                    android:id="@+id/mTextView_pinglun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/pinglun"
+                    android:drawablePadding="@dimen/j4dp"
+                    android:gravity="center_vertical"
+                    android:text="300" />
+
+                <TextView
+                    android:id="@+id/mTextView_chakan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j15dp"
+                    android:drawableLeft="@drawable/chakan"
+                    android:drawablePadding="@dimen/j4dp"
+                    android:gravity="center_vertical"
+                    android:text="300" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_time"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:text="今天9.00" />
+
+            <TextView
+                android:id="@+id/mTextView_title"
+                style="@style/text_style_13_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/j3dp"
+                android:maxLines="3"
+                android:text="@string/test" />
+
+            <TextView
+                android:id="@+id/mTextView_address"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:drawableLeft="@drawable/dingwei"
+                android:drawablePadding="@dimen/j4dp"
+                android:text="常州创意产业园" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

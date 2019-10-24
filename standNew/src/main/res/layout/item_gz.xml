@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp"
+        android:background="#f2f2f2" />
+
+    <TextView
+        android:id="@+id/mTextView_title"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/j10dp"
+        android:paddingLeft="@dimen/j12dp"
+        android:paddingTop="@dimen/j10dp"
+        android:text="经营管理" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <com.framewidget.view.MGridView
+        android:id="@+id/mMGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/j8dp"
+        android:layout_marginTop="@dimen/j8dp"
+        android:horizontalSpacing="@dimen/j10dp"
+        android:numColumns="4"
+        android:verticalSpacing="@dimen/j15dp" />
+</LinearLayout>
+

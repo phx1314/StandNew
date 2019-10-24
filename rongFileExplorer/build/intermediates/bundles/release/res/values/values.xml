@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">48dip</dimen>
+    <string name="app_name">SDCardFileExplorer</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <style name="NoTitleAction">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+    </style>
+    <style name="NoTitleNavigation">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="NoTitleStatus">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="TitleAction">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+    </style>
+    <style name="TitleNavigation">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="TitleStatus">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="TransAction">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+    </style>
+    <style name="TransNavigation">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="TransStatus">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="actionbarback">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/default_bt_background</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/bt_back_n</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+    </style>
+    <style name="actionbartitle">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

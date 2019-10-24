@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/j10dp"
+    android:paddingLeft="@dimen/j10dp"
+    android:paddingRight="@dimen/j10dp"
+    android:paddingTop="@dimen/j10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_k"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/j1_5dp">
+
+            <com.mdx.framework.widget.MImageView
+                android:id="@+id/mMImageView_tx"
+                android:layout_width="@dimen/j35dp"
+                android:layout_height="@dimen/j35dp"
+                android:src="@drawable/morentouxiang_n" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/j6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mTextView_name"
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j5dp"
+            android:background="@drawable/shape_grey"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/j15dp">
+
+                <TextView
+                    android:id="@+id/mTextView_title"
+                    style="@style/text_style_15_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="会议室申请" />
+
+                <LinearLayout
+                    android:id="@+id/mLinearLayout_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j35dp"
+                android:layout_marginBottom="@dimen/j1dp"
+                android:layout_marginLeft="@dimen/j1dp"
+                android:layout_marginRight="@dimen/j1dp"
+                android:layout_marginTop="@dimen/j5dp"
+                android:background="@drawable/shape_bg_bt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_jd"
+                    style="@style/text_style_15_black"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="查看进度"
+                    android:textColor="#F37263" />
+
+                <ImageView
+                    android:id="@+id/mImageView_z"
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/tyD1" />
+
+                <TextView
+                    android:id="@+id/mTextView_title_state"
+                    style="@style/text_style_15_black"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="审批结束"
+                    android:textColor="#F37263" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

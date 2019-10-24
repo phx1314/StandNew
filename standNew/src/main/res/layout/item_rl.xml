@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout_pt"
+        android:layout_width="@dimen/j40dp"
+        android:layout_height="@dimen/j40dp"
+        android:background="@drawable/bg_select"
+        android:paddingLeft="@dimen/j5dp"
+        android:paddingRight="@dimen/j5dp">
+
+        <TextView
+            android:id="@+id/mTextView_xiu"
+            style="@style/text_style_11_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/j3dp"
+            android:text="休"
+            android:textColor="@drawable/select_text_xiu"
+            android:textSize="9sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mTextView_num"
+            style="@style/text_style_11_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/j3dp"
+            android:text="今天"
+            android:textColor="@drawable/select_text_black" />
+
+        <TextView
+            android:id="@+id/mTextView_nl"
+            style="@style/text_style_11_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mTextView_num"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/j2dp"
+            android:text="廿五"
+            android:textColor="@drawable/select_text_gray"
+            android:textSize="9sp" />
+
+        <ImageView
+            android:id="@+id/mMImageView_dot"
+            android:layout_width="@dimen/j5dp"
+            android:layout_height="@dimen/j5dp"
+            android:layout_below="@+id/mTextView_nl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/j3dp"
+            android:background="@drawable/shape_blue_yuan"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</LinearLayout>
+

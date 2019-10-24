@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+     <!-- 阴影图片，android:left表示阴影图片左边到背景图片左边的距离
+    android:top表示阴影图片上边到背景图片上边的距离-->
+     <item android:left="@dimen/j2dp" android:top="@dimen/j2dp">
+          <shape>
+               <corners android:radius="@dimen/j5dp" />
+               <solid android:color="#60000000" />
+          </shape>
+     </item>
+     <!-- 背景图片，android:right表示阴影图片右边到背景图片右边的距离
+    android:bottom表示阴影图片下边到背景图片下边的距离-->
+     <item android:bottom="@dimen/j1_5dp" android:right="@dimen/j0_5dp">
+          <shape>
+               <corners android:radius="@dimen/j5dp" />
+               <solid android:color="@color/A" />
+          </shape>
+     </item>
+</layer-list>
+

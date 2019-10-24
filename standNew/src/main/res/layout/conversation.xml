@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.framewidget.view.Headlayout
+        android:id="@+id/mHeadlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- 会话页面 Fragment -->
+    <fragment
+        android:id="@+id/mfragment"
+        android:name="io.rong.imkit.fragment.ConversationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <com.ab.view.pullview.AbPullListView
+        android:id="@+id/mMPageListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j8dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="@dimen/j8dp"
+        android:fadingEdge="none" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_fs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j40dp"
+        android:background="#E8E8E8"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/j12dp"
+        android:paddingRight="@dimen/j12dp">
+
+        <EditText
+            android:id="@+id/mEditText"
+            style="@style/text_style_13_black"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/j25dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:hint="请输入"
+            android:paddingLeft="@dimen/j5dp"
+            android:paddingRight="@dimen/j5dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/mTextView_fs"
+            style="@style/text_style_13_white"
+            android:layout_width="@dimen/j50dp"
+            android:layout_height="@dimen/j25dp"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:background="@color/A"
+            android:gravity="center"
+            android:text="留言" />
+    </LinearLayout>
+</LinearLayout>
+

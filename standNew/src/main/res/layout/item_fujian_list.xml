@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_delete"
+        android:layout_width="@dimen/j60dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/mLinearLayout_content"
+        android:layout_alignTop="@+id/mLinearLayout_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mButton_delete"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+            android:text="删除" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_presss"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/j10dp">
+
+            <com.mdx.framework.widget.MImageView
+                android:id="@+id/mImageView"
+                android:layout_width="@dimen/j45dp"
+                android:layout_height="@dimen/j45dp"
+                android:src="@drawable/fujian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mTextView_title"
+                        style="@style/text_style_15_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/j5dp"
+                        android:ellipsize="end"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:id="@+id/mTextView_size"
+                        style="@style/text_style_11_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/j10dp"
+                        android:ellipsize="end"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mTextView_content"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/j6dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

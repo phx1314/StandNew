@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.ab.view.pullview.AbPullListView
+        android:id="@+id/mAbPullListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/tyD1"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:listSelector="#00000000" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_del"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="@drawable/bg_tab"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/mTextView_del"
+            style="@style/text_style_13_black"
+            android:layout_width="@dimen/j100dp"
+            android:layout_height="match_parent"
+            android:drawablePadding="@dimen/j2dp"
+            android:drawableTop="@drawable/qingchu"
+            android:gravity="center"
+            android:paddingTop="@dimen/j6dp"
+            android:text="清除" />
+
+        <TextView
+            android:id="@+id/mTextView_ydu"
+            style="@style/text_style_13_black"
+            android:layout_width="@dimen/j100dp"
+            android:layout_height="match_parent"
+            android:drawablePadding="@dimen/j2dp"
+            android:drawableTop="@drawable/yiduyj"
+            android:gravity="center"
+            android:paddingTop="@dimen/j6dp"
+            android:text="标记已读" />
+    </LinearLayout>
+</LinearLayout>
+

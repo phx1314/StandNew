@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_left"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rc_ic_bubble_no_left"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rc_ic_location_item_default"
+            android:gravity="bottom" >
+
+            <TextView
+                android:id="@+id/mTextView"
+                style="@style/text_style_13_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#88000000"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:padding="2dp"
+                android:text="撒旦撒的撒旦撒旦撒的撒旦撒旦撒的撒旦撒旦撒撒" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_right"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/rc_ic_bubble_no_right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rc_ic_location_item_default"
+            android:gravity="bottom" >
+
+            <TextView
+                android:id="@+id/mTextView_right"
+                style="@style/text_style_13_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#88000000"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:padding="2dp"
+                android:text="撒旦撒的撒旦撒旦撒的撒旦撒旦撒的撒旦撒旦撒撒" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

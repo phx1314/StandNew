@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+     <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/j10dp">
+          <TextView android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dfsadsad" android:textColor="@color/black" android:textSize="13sp" />
+          <TextView android:id="@+id/tv_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j8dp" android:drawableLeft="@drawable/yslt_ic_greenmap_n" android:drawablePadding="@dimen/j5dp" android:ellipsize="end" android:singleLine="true" android:text="河海大学河海大学河海大学河海大学河海大学河海大学河海大学河海大学河海大学河海大学" android:textColor="@color/gray" android:textSize="12sp" />
+     </LinearLayout>
+</LinearLayout>
+

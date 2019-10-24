@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+     <!-- Base application theme. -->
+     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+          <!-- Customize your theme here. -->
+          <item name="colorPrimary">@color/colorPrimary</item>
+          <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+          <item name="colorAccent">@color/colorAccent</item>
+     </style>
+     <style name="AppTheme_pub" parent="Theme.AppCompat.Light.DarkActionBar">
+          <item name="colorPrimary">@color/colorPrimary</item>
+          <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+          <item name="colorAccent">@color/colorAccent</item>
+          <item name="android:statusBarColor">#00000000</item>
+          <item name="android:windowBackground">@color/white</item>
+          <item name="android:windowAnimationStyle">@style/MyActivitySiwtchAnimation</item>
+     </style>
+     <style name="MyToggleButton" parent="@android:style/Widget.CompoundButton">
+          <item name="android:button">@drawable/setting_checkbox_button</item>
+     </style>
+     <style name="MyActivitySiwtchAnimation">
+          <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+          <item name="android:activityOpenExitAnimation">@anim/hold</item>
+          <!--<item name="android:activityCloseEnterAnimation">@anim/push_left_in</item>-->
+          <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+     </style>
+     <style name="menu">
+          <item name="android:background">#00000000</item>
+          <item name="android:layout_width">wrap_content</item>
+          <item name="android:layout_height">match_parent</item>
+          <item name="android:button">@null</item>
+          <item name="android:gravity">center</item>
+          <item name="android:textColor">@drawable/select_text</item>
+          <item name="android:textSize">12sp</item>
+          <item name="android:layout_weight">1.0</item>
+          <item name="android:singleLine">true</item>
+          <item name="android:paddingTop">7.0dip</item>
+          <item name="android:drawablePadding">3dip</item>
+     </style>
+     <style name="menu_tab">
+          <item name="android:background">@drawable/bg_tab</item>
+     </style>
+     <style name="StyleProgressBarMini" parent="Widget.AppCompat.ProgressBar.Horizontal">
+          <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+     </style>
+     <style name="text_style_11_black_rili">
+          <item name="android:textColor">@drawable/select_text_black</item>
+          <item name="android:textSize">11sp</item>
+     </style>
+     <style name="text_style_11_hui_rili">
+          <item name="android:textColor">#11000000</item>
+          <item name="android:textSize">11sp</item>
+     </style>
+     <style name="text_style_11_gray_rili">
+          <item name="android:textColor">@drawable/select_text_gray</item>
+          <item name="android:textSize">11sp</item>
+     </style>
+     <style name="text_style_13_white_tab">
+          <item name="android:textStyle">bold</item>
+     </style>
+</resources>
+

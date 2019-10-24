@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/j10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTextView_title"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="五一放假通知" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_content"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="行业泽勋行业泽勋行业泽勋行业泽勋行业泽勋行业泽勋" />
+
+                <TextView
+                    android:id="@+id/mTextView_time"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j5dp"
+                    android:text="上午9：00" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mMImageView"
+            android:layout_width="@dimen/j80dp"
+            android:layout_height="@dimen/j60dp"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_avatar"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
+

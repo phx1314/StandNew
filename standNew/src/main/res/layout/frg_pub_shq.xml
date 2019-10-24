@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:progressDrawable="@drawable/pg"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/mWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_fj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/j7dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/fujian_"
+            android:drawablePadding="@dimen/j5dp"
+            android:gravity="center_vertical"
+            android:text="附件" />
+
+        <TextView
+            android:id="@+id/mTextView_count"
+            style="@style/text_style_15_white"
+            android:layout_width="@dimen/j25dp"
+            android:layout_height="@dimen/j25dp"
+            android:background="@drawable/shape_red"
+            android:gravity="center"
+            android:text="0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:src="@drawable/gengduo" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/j7dp">
+
+
+
+
+            <TextView
+                android:id="@+id/mTextView_tijiao"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="提交"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mTextView_zc"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j7dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="暂存"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mTextView_back"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j7dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="回退"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mTextView_yj"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j7dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="移交"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mTextView_fj"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j7dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="否决"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mTextView_finishi"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j7dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="完成"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mTextView_hr"
+                style="@style/text_style_13_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j7dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:padding="@dimen/j8dp"
+                android:text="换人"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

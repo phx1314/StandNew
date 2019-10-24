@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_delete"
+        android:layout_width="@dimen/j60dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/mLinearLayout_content"
+        android:layout_alignTop="@+id/mLinearLayout_content"
+        android:background="#ff0000">
+
+        <Button
+            android:id="@+id/mButton_delete"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:text="删除" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j74dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/j10dp">
+
+                <com.mdx.framework.widget.MImageView
+                    android:id="@+id/mMImageView"
+                    android:layout_width="@dimen/j54dp"
+                    android:layout_height="@dimen/j54dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fujian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/j10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/mTextView_name"
+                        style="@style/text_style_13_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ddddd" />
+
+                    <TextView
+                        android:id="@+id/mTextView_size"
+                        style="@style/text_style_11_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="1.0MB" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

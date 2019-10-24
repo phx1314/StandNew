@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/j35dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/j10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/j5dp"
+            android:paddingTop="@dimen/j5dp">
+
+            <TextView
+                android:id="@+id/mTextView_currenttime"
+                style="@style/text_style_13_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="当前时间" />
+
+            <TextView
+                android:id="@+id/mTextView_endtime"
+                style="@style/text_style_11_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j3dp"
+                android:text="当前时间" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/j25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/mImageViewtop"
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tyD1" />
+
+            <ImageView
+                android:id="@+id/mImageViewcenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/j5dp"
+                android:layout_marginTop="@dimen/j5dp"
+                android:minHeight="@dimen/j8dp"
+                android:minWidth="@dimen/j8dp"
+                android:src="@drawable/ic_card_travel_black_24dp" />
+
+            <ImageView
+                android:id="@+id/mImageViewbottom"
+                android:layout_width="1px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tyD1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mTextView_title"
+            style="@style/text_style_13_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j8dp"
+            android:singleLine="true"
+            android:text="10:56" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

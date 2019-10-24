@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_delete"
+        android:layout_width="@dimen/j60dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/mLinearLayout_content"
+        android:layout_alignTop="@+id/mLinearLayout_content">
+
+        <Button
+            android:id="@+id/mButton_delete"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+            android:text="删除" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_yd"
+        android:layout_width="@dimen/j60dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/mLinearLayout_content"
+        android:layout_alignTop="@+id/mLinearLayout_content">
+
+        <Button
+            android:id="@+id/mButton_yd"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:text="已读" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_content2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/j10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.mdx.framework.widget.MImageView
+                        android:id="@+id/mMImageView"
+                        android:layout_width="@dimen/j35dp"
+                        android:layout_height="@dimen/j35dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/j10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/mTextView_name"
+                            style="@style/text_style_15_black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="周军" />
+
+                        <TextView
+                            android:id="@+id/mTextView_time"
+                            style="@style/text_style_13_gray"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:text="2018-08-09" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/mTextView_title_fu"
+                        style="@style/text_style_13_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/j3dp"
+                        android:singleLine="true"
+                        android:text="@string/test" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/mCheckBox"
+                    android:layout_width="@dimen/j20dp"
+                    android:layout_height="@dimen/j20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/j8dp"
+                    android:background="@drawable/weixuan"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp"
+        android:background="#f2f2f2" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/j13dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="账号" />
+
+        <TextView
+            android:id="@+id/mTextView1"
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="@dimen/j5dp"
+            android:drawableRight="@drawable/gengduo"
+            android:gravity="center_vertical"
+            android:text="周军" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/j13dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="手机号" />
+
+        <TextView
+            android:id="@+id/mTextView2"
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="@dimen/j5dp"
+            android:drawableRight="@drawable/gengduo"
+            android:gravity="center_vertical"
+            android:text="13915079457" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp"
+        android:background="#f2f2f2" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/j13dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="使用屏幕锁" />
+
+        <ToggleButton
+            android:id="@+id/mToggleButton1"
+            style="@style/MyToggleButton"
+            android:layout_width="@dimen/j50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j8dp"
+            android:background="#00000000"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/j13dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="使用应用锁" />
+
+        <ToggleButton
+            android:id="@+id/mToggleButton2"
+            style="@style/MyToggleButton"
+            android:layout_width="@dimen/j50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j8dp"
+            android:background="#00000000"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/j13dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="解锁方式" />
+
+        <TextView
+            android:id="@+id/mTextView_5"
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="@dimen/j5dp"
+            android:drawableRight="@drawable/gengduo"
+            android:gravity="center_vertical"
+            android:text="密码" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j40dp"
+        android:background="#f2f2f2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2" />
+</LinearLayout>
+

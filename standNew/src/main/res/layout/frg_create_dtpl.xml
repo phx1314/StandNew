@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mEditText_content"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="top"
+        android:hint="请输入内容"
+        android:minHeight="@dimen/j100dp"
+        android:padding="@dimen/j10dp" />
+
+    <com.framewidget.view.MGridPhotoChoose
+        android:id="@+id/mMGridPhotoChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/j8dp"
+        android:layout_marginTop="@dimen/j8dp"
+        android:background="@color/tyD1" />
+
+    <TextView
+        android:id="@+id/mTextView_address"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/dingwei_h"
+        android:drawablePadding="@dimen/j5dp"
+        android:padding="@dimen/j10dp"
+        android:text="常州创意产业园" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff" />
+</LinearLayout>
+

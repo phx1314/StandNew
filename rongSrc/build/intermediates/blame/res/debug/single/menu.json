@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_conversation_menu.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_conversation_menu.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\my.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\my.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_fix_username.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_fix_username.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_photo_menu.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_photo_menu.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_pa_menu.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_pa_menu.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\per_menu.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\per_menu.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_add_friend_menu.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_add_friend_menu.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\exploded-aar\\StandNew\\frameWidget\\unspecified\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_main_menu.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_main_menu.xml"
+    },
+    {
+        "merged": "F:\\AsWork\\StandNew\\rongSrc\\build\\intermediates\\res\\merged\\debug\\menu\\de_select_friend.xml",
+        "source": "F:\\AsWork\\StandNew\\rongSrc\\src\\main\\res\\menu\\de_select_friend.xml"
+    }
+]

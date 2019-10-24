@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/mImageButton_left"
+                android:layout_width="@dimen/j40dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:src="@drawable/fanhui" />
+
+            <EditText
+                android:id="@+id/mEditText_sousuo"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/j5dp"
+                android:layout_marginTop="@dimen/j5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bjsousuo"
+                android:gravity="center_vertical"
+                android:hint="请输入关键字"
+                android:paddingLeft="@dimen/j10dp"
+                android:singleLine="true"
+                android:transitionName="myButton1" />
+
+            <TextView
+                android:id="@+id/mTextView_search"
+                style="@style/text_style_15_black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:paddingLeft="@dimen/j10dp"
+                android:paddingRight="@dimen/j10dp"
+                android:text="搜索" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j13dp"
+            android:layout_marginRight="@dimen/j13dp"
+            android:layout_marginTop="@dimen/j10dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="搜索历史" />
+
+            <ImageView
+                android:id="@+id/clk_mImageView_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bt_shanchu_n" />
+        </LinearLayout>
+
+        <com.framewidget.view.FixGridLayout
+            android:id="@+id/mFixGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/j13dp"
+            android:layout_marginTop="@dimen/j13dp" />
+
+
+    </LinearLayout>
+
+    <com.ab.view.pullview.AbPullListView
+        android:id="@+id/mAbPullListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/j10dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/tyD1"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:listSelector="#00000000" />
+</LinearLayout>
+

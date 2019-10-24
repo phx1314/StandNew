@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j45dp"
+                android:background="@drawable/logo2" />
+
+            <TextView
+                android:id="@+id/mTextView_name"
+                style="@style/text_style_17_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/app_name"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/j40dp"
+                android:background="@color/tyD1" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_style_15_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:drawablePadding="@dimen/j5dp"
+                    android:drawableRight="@drawable/gengduo"
+                    android:padding="@dimen/j13dp"
+                    android:text="功能介绍" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_style_15_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:drawablePadding="@dimen/j5dp"
+                    android:drawableRight="@drawable/gengduo"
+                    android:padding="@dimen/j13dp"
+                    android:text="版本更新" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_style_15_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:drawablePadding="@dimen/j5dp"
+                    android:padding="@dimen/j13dp"
+                    android:text="设备号" />
+
+                <TextView
+                    android:id="@+id/mTextView_update"
+                    style="@style/text_style_15_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:drawablePadding="@dimen/j5dp"
+                    android:drawableRight="@drawable/gengduo"
+                    android:padding="@dimen/j13dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/j15dp"
+                android:layout_marginTop="@dimen/j20dp"
+                android:text="Powerder by JinQu SoftWare" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

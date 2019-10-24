@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <ImageView
+            android:id="@+id/mImageView_1"
+            android:layout_width="1px"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            android:background="@color/tyD1" />
+
+        <TextView
+            android:id="@+id/mTextView_fq"
+            style="@style/text_style_15_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_oa_next_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="发   起" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="17dp"
+            android:layout_weight="1"
+            android:background="@color/tyD1" />
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/morentouxiang_n" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="17dp"
+            android:layout_weight="1"
+            android:background="@color/tyD1" />
+
+        <TextView
+            android:id="@+id/mTextView_yj"
+            style="@style/text_style_15_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_oa_yj"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2017-05-05" />
+
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            android:background="@color/tyD1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_con_02"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mTextView_1"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="admin 轮到轮到轮到轮到轮到" />
+
+            <TextView
+                android:id="@+id/mTextView_2"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/login_user"
+                android:gravity="center_vertical"
+                android:text="分管领导" />
+
+            <TextView
+                android:id="@+id/mTextView_3"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16:32" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mTextView_4"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="admin 轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到轮到" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mTextView_5"
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="联系方式：" />
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical" android:paddingRight="@dimen/j5dp">
+     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bj_fj" android:gravity="center" android:orientation="vertical" android:padding="@dimen/j10dp">
+          <TextView android:id="@+id/mTextView_search" style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:paddingTop="@dimen/j3dp" android:text="搜索" android:visibility="gone" />
+          <TextView android:id="@+id/mTextView_add" style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:paddingTop="@dimen/j3dp" android:text="添加邮件" />
+          <TextView android:id="@+id/mTextView_del" style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:paddingTop="@dimen/j3dp" android:text="批量删除" />
+     </LinearLayout>
+</LinearLayout>
+

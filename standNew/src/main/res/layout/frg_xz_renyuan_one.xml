@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/mEditText_sousuo"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:hint="请输入"
+        android:imeOptions="actionSearch"
+        android:padding="@dimen/j7dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ab.view.pullview.AbPullListView
+            android:id="@+id/mAbPullListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:fadingEdge="none"
+            android:listSelector="#00000000" />
+
+        <com.framewidget.view.SideBar
+            android:id="@+id/mSideBar"
+            android:layout_width="@dimen/j20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:background="#00000000" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="@dimen/j80dp"
+            android:layout_height="@dimen/j80dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/A"
+            android:textSize="22sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>
+

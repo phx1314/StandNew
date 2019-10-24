@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:padding="@dimen/j10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_k"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/j1_5dp">
+
+                <com.mdx.framework.widget.MImageView
+                    android:id="@+id/mMImageView"
+                    android:layout_width="@dimen/j40dp"
+                    android:layout_height="@dimen/j40dp"
+                    android:src="@drawable/morentouxiang_n" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/j8dp"
+            android:layout_marginTop="@dimen/j3dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTextView_title"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/test"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mTextView_content1"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:text="@string/test" />
+
+            <TextView
+                android:id="@+id/mTextView_content4"
+                style="@style/text_style_13_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:lineSpacingExtra="@dimen/j3dp"
+                android:text="@string/test" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

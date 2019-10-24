@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/rc_item_conversation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/j10dp">
+
+    <FrameLayout
+        android:id="@id/rc_item1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/j60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+        <io.rong.imkit.AsyncImageView
+            android:id="@+id/rc_left"
+            android:layout_width="@dimen/j40dp"
+            android:layout_height="@dimen/j40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/morentouxiang_n"
+            android:scaleType="fitXY"
+           />
+
+    </FrameLayout>
+
+    <io.rong.imkit.widget.ProviderContainerView
+        android:id="@+id/rc_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/j5dp"
+        android:layout_toLeftOf="@id/rc_item2"
+        android:layout_toRightOf="@id/rc_item1"
+        android:background="@android:color/transparent" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rc_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right|top"
+        android:padding="@dimen/j10dp">
+
+        <ImageView
+            android:id="@+id/rc_unread_message_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/rc_unread_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/rc_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent">
+
+        <io.rong.imkit.AsyncImageView
+            android:id="@id/rc_right"
+            android:layout_width="@dimen/j40dp"
+            android:layout_height="@dimen/j40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:RCDefDrawable="@drawable/morentouxiang_n" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:id="@+id/rc_unread_message_icon_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/rc_unread_message_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="10dp" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/j50dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:background="@color/tyD1" />
+</RelativeLayout>
